@@ -43,7 +43,7 @@
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize"
         ]
-    },
+    
     "config": {
         "preferred-install": "dist"
     },
@@ -61,6 +61,6 @@
             "php artisan vendor:publish --tag=public --force",
             "php artisan vendor:publish",
             "php artisan migrate",
-        ]
-    }
+        ],
+    },
 }
